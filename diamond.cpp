@@ -1,6 +1,6 @@
-#include<iostream>
-using namespace std;
-int main(){
+// #include<iostream>
+// using namespace std;
+// int main(){
 //     int n;
 //     cout << "Enter number of rows: ";
 //     cin >> n;
@@ -50,8 +50,8 @@ int main(){
 //         cout << endl;
 //     }
 // }
-int n;
-cin>>n;
+// int n;
+// cin>>n;
 // for(int i=1; i<=n; i++){
 //         for(int j=1; j<=n-i; j++){
 //             cout << " ";
@@ -101,32 +101,32 @@ cin>>n;
 //     cout<<endl;
 // }
 // }
-int i,j,k,l;
-for(i=1;i<=n;i++){
-    for(j=n-i;j>=1;j--){
-        cout<<" ";
-    }
-    for(k=1;k<=i;k++){
-        cout<< char('A'+k-1);
-    }
-    for(l=i-1;l>=1;l--){
-        cout<< char('A'+l-1);
-    }
+// int i,j,k,l;
+// for(i=1;i<=n;i++){
+//     for(j=n-i;j>=1;j--){
+//         cout<<" ";
+//     }
+//     for(k=1;k<=i;k++){
+//         cout<< char('A'+k-1);
+//     }
+//     for(l=i-1;l>=1;l--){
+//         cout<< char('A'+l-1);
+//     }
     
-    cout<<endl;
-}
+//     cout<<endl;
+// }
 
-for(i=n-1;i>=1;i--){
-    for(j=n-i;j>=1;j--){
-        cout<<" ";
-    }
-    for(k=1;k<=i;k++){
-        cout<< char('A'+k-1);
-    }
-    for(l=i-1;l>=1;l--){
-        cout<< char('A'+l-1);
-    }
+// for(i=n-1;i>=1;i--){
+//     for(j=n-i;j>=1;j--){
+//         cout<<" ";
+//     }
+//     for(k=1;k<=i;k++){
+//         cout<< char('A'+k-1);
+//     }
+//     for(l=i-1;l>=1;l--){
+//         cout<< char('A'+l-1);
+//     }
     
-    cout<<endl;
-}
-}
+//     cout<<endl;
+// }
+// }

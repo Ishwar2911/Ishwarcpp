@@ -1,10 +1,18 @@
-    // for(int i=n; i>=1; i--){
-    //     for(int j=1; j<=n-i; j++){
-    //         cout << " ";
-    //     }
-    //     for(int k=1; k<=i; k++){
-    //         cout << "* ";
-    //     }
-    //     cout << endl;
-    // }
-    // return 0;
+class B;
+// class A{
+//     int x=5;
+//     friend class B;
+// };
+// class B{
+//     public:
+//     void display(A a){
+//         cout<<"value: "<<a.x<<endl;
+
+//     };
+// };
+// int main(){
+//     A a;
+//     B b;
+//     b.display(a);
+//     return 0;
+// }
